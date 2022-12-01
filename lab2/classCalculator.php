@@ -4,25 +4,25 @@ class Calculator
 {
     private $result = 0;
 
-    public function sum(float $value)
+    public function sum(float $value): self
     {
         $this->result += $value;
         return $this;
     }
 
-    public function minus(float $value)
+    public function minus(float $value): self
     {
         $this->result -= $value;
         return $this;
     }
 
-    public function product(float $value)
+    public function product(float $value): self
     {
         $this->result *= $value;
         return $this;
     }
 
-    public function division(float $value)
+    public function division(float $value): self
     {
         if ($value == 0) {
             throw new Exception("Деление на ноль.");
@@ -32,7 +32,7 @@ class Calculator
         }
     }
 
-    public function getResult()
+    public function getResult(): float
     {
         return $this->result;
     }
