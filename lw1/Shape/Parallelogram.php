@@ -2,9 +2,9 @@
 
 class Parallelogram extends Shape
 {
-    private $slantingSide;
-    private $horizontalSide;
-    private $height;
+    private float $slantingSide;
+    private float $horizontalSide;
+    private float $height;
 
     public function __construct(float $slantingSide, float $horizontalSide, float $height)
     {

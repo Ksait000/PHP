@@ -2,7 +2,7 @@
 
 class Calculator
 {
-    private $result = 0;
+    private float $result = 0;
 
     public function sum(float $value): self
     {

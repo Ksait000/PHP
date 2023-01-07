@@ -2,8 +2,8 @@
 
 class Rectangle extends Shape
 {
-    private $width;
-    private $height;
+    private float $width;
+    private float $height;
 
     public function __construct(float $width, float $height)
     {

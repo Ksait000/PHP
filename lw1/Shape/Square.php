@@ -2,7 +2,7 @@
 
 class Square extends Shape
 {
-    private $side;
+    private float $side;
 
     public function __construct(float $side)
     {

@@ -2,9 +2,9 @@
 
 class Date
 {
-    private $day;
-    private $month;
-    private $year;
+    private int $day;
+    private int $month;
+    private int $year;
 
     public function __construct(int $day, int $month, int $year)
     {
